@@ -80,6 +80,8 @@ The `GeneralPlatformKey` formula concatenates:
 * Colon separator (`:`)
 * External platform key
 
+The formula expression uses `{!current}` references for proper string concatenation: `{!Platform}{!current}amp;{!current}quot;:{!current}quot;{!current}amp;{!Key}`
+
 This standardised format ensures consistent key generation across all donation platforms integrated with MoveData.
 
 ## Error Handling
