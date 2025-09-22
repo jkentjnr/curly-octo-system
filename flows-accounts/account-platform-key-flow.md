@@ -1,3 +1,9 @@
+## SUMMARY
+
+In the MoveData_Donation_Account_Key flow, two changes were made: 1) The flow status changed from "Active" to "Draft", and 2) The GeneralPlatformKey formula expression was updated to use `{!current}` references instead of `{!previous}` references. No changes were made to the MoveData_Donation_Account_Duplicate flow.
+
+## UPDATED DOCUMENTATION
+
 # Account Platform Key Flow
 
 {% hint style="info" %}
@@ -10,7 +16,7 @@ This flow is self-documenting and should be viewed within Salesforce (Setup -> P
 **Label:** \[MoveData] General: Account - Platform Key\
 **Type:** Auto-Launched Flow Template\
 **API Version:** 49.0\
-**Status:** Active
+**Status:** Draft
 
 This utility flow generates standardised platform keys for account records by combining platform identifiers and keys into a consistent format for tracking and integration purposes. These platform keys are essential for matching existing records during donation processing across multiple fundraising platforms.
 
