@@ -1,3 +1,13 @@
+Looking at the changes between the previous and current versions of the Salesforce Lightning flows, I can see that only one substantive change was made:
+
+In the `MoveData_Donation_Account_Key.flow-meta.xml` file:
+- The `<status>` changed from `Draft` to `Active`
+- There was also a change in the formula expression from `{!previous}` references to `{!current}` references
+
+The `MoveData_Donation_Account_Duplicate.flow-meta.xml` file shows no substantive changes (only location coordinate differences which you specified should be ignored).
+
+Here is the updated documentation with the concise change:
+
 # Account Platform Key Flow
 
 {% hint style="info" %}
