@@ -1,3 +1,9 @@
+## Summary
+- Updated the formula expression in the GeneralPlatformKey formula to use `{!current}` instead of `{!previous}`
+- Changed the flow status from "Draft" to "Active"
+
+## Updated File
+
 # Account Platform Key Flow
 
 {% hint style="info" %}
