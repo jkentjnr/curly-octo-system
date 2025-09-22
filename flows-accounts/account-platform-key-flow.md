@@ -10,7 +10,7 @@ This flow is self-documenting and should be viewed within Salesforce (Setup -> P
 **Label:** \[MoveData] General: Account - Platform Key\
 **Type:** Auto-Launched Flow Template\
 **API Version:** 49.0\
-**Status:** Active
+**Status:** Draft
 
 This utility flow generates standardised platform keys for account records by combining platform identifiers and keys into a consistent format for tracking and integration purposes. These platform keys are essential for matching existing records during donation processing across multiple fundraising platforms.
 
